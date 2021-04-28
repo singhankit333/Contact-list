@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+#page-header{
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#myForm{
+    display: flex;
+    justify-content: space-around;
+}
+
+#myForm form{
+    display: flex;
+    justify-content: space-between;
+}
+
+#myForm form input, button{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgba(125, 169, 219, 0.336);
+    margin: 5px;
+    padding: 5px;
+    color: rgb(212, 105, 105);
+}
+
+#contact-list ul li{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list-item{
+    background-color: thistle;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.list-item span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list-item:hover{
+    box-shadow: 0px 0px 3px 2px #aa7676;
+}
+
+.list-button{
+    margin: 7px 0 0 0;
+}
+
+.list-button a{
+    font-weight: 800;
+    color: rgb(247, 230, 230);
+    border: 1px;
+    background-color: rgb(252, 23, 7);
+    padding: 2px;
+}
